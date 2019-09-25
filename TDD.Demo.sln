@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29318.209
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD.Demo", "TDD.Demo\TDD.Demo.csproj", "{346C37E8-7A8E-4698-A42A-CB92D1423D6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDD.Demo", "TDD.Demo\TDD.Demo.csproj", "{346C37E8-7A8E-4698-A42A-CB92D1423D6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD.Demo.UnitTests", "TDD.Demo.UnitTests\TDD.Demo.UnitTests.csproj", "{CC972ACE-28B7-4AA5-AB75-05F300CA5A3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDD.Demo.UnitTests", "TDD.Demo.UnitTests\TDD.Demo.UnitTests.csproj", "{CC972ACE-28B7-4AA5-AB75-05F300CA5A3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD.Demo.NUnitTests", "TDD.Demo.NUnitTests\TDD.Demo.NUnitTests.csproj", "{2100206A-E692-4C8C-9D4F-E84351AC0982}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{CC972ACE-28B7-4AA5-AB75-05F300CA5A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC972ACE-28B7-4AA5-AB75-05F300CA5A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC972ACE-28B7-4AA5-AB75-05F300CA5A3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2100206A-E692-4C8C-9D4F-E84351AC0982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2100206A-E692-4C8C-9D4F-E84351AC0982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2100206A-E692-4C8C-9D4F-E84351AC0982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2100206A-E692-4C8C-9D4F-E84351AC0982}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
