@@ -5,3 +5,5 @@
 /.vs/TDD.Demo/v16
 /TDD.Demo.NUnitTests/obj
 /TDD.Demo.NUnitTests/bin/Debug/netcoreapp3.0
+/Dependency.UnitTest/bin/Debug/netcoreapp3.0
+/Dependency.UnitTest/obj
