@@ -7,3 +7,10 @@
 /TDD.Demo.NUnitTests/bin/Debug/netcoreapp3.0
 /Dependency.UnitTest/bin/Debug/netcoreapp3.0
 /Dependency.UnitTest/obj
+/.vs/TDD.Demo/DesignTimeBuild
+/TDD.Demo/obj/Debug/netcoreapp3.0
+/TicTacToe.Services/bin/Debug/netcoreapp3.0
+/TicTacToe.Services/obj
+/TicTacToe.UnitTests/bin/Debug/netcoreapp3.0
+/TicTacToe.UnitTests/obj/Debug/netcoreapp3.0
+/TicTacToe.UnitTests/obj
