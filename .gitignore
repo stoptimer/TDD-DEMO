@@ -14,3 +14,6 @@
 /TicTacToe.UnitTests/bin/Debug/netcoreapp3.0
 /TicTacToe.UnitTests/obj/Debug/netcoreapp3.0
 /TicTacToe.UnitTests/obj
+/BusinessApplication.Core/bin/Debug/netcoreapp3.0
+/BusinessApplication.Core/obj
+/BusinessApplication.UnitTests/obj
