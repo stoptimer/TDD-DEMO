@@ -4,6 +4,6 @@ namespace BusinessApplication.Core
 {
     public class BusinessService
     {
-        private readonly string _dataConnectionString = con;
+        
     }
 }
