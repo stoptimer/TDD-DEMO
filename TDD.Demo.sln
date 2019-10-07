@@ -17,9 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTacToe.Services", "TicTa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter5", "Chapter5", "{4996E732-EAAC-49D6-ABFD-DECCF3FECAAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessApplication.Core", "BusinessApplication.Core\BusinessApplication.Core.csproj", "{BDAF0F68-6BFC-45EA-8C12-E40861A9A8D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessApplication.Core", "BusinessApplication.Core\BusinessApplication.Core.csproj", "{BDAF0F68-6BFC-45EA-8C12-E40861A9A8D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessApplication.UnitTests", "BusinessApplication.UnitTests\BusinessApplication.UnitTests.csproj", "{2E907F8C-57DD-44E4-9501-6469B8CF9D16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessApplication.UnitTests", "BusinessApplication.UnitTests\BusinessApplication.UnitTests.csproj", "{2E907F8C-57DD-44E4-9501-6469B8CF9D16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter6", "Chapter6", "{B1373FAA-99C4-4E24-9E2C-67E020F0479E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
