@@ -8,7 +8,7 @@ namespace OSIM.UnitTests.OSIM.Core
     {
 
     }
-
+    [TestFixture]
     public class and_saving_a_valid_item_type : when_work_with_the_item_type_repository
     {
         private int _result;
@@ -18,16 +18,16 @@ namespace OSIM.UnitTests.OSIM.Core
         [SetUp]
         public void Setup()
         {
+            var randomNumberGenerator = new Random();
+            _itemTypeId = randomNumberGenerator.Next(32000);
             _itemTypeRepository = new ItemTypeRepository();
         }
-        protected void Because_of()
-        {
-            _result = _itemTypeRepository.Save(_testItemType);
-        }
+        
         [Test]
         public void then_a_valid_item_type_id_should_be_returned()
         {
-            Assert.AreEqual(_result, _testItemType);
+            _result = _itemTypeRepository.Save(_testItemType);
+            Assert.AreEqual(_result, _itemTypeId);
         }
     }
 
