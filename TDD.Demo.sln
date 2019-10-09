@@ -17,9 +17,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTacToe.Services", "TicTa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter5", "Chapter5", "{4996E732-EAAC-49D6-ABFD-DECCF3FECAAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessApplication.Core", "BusinessApplication.Core\BusinessApplication.Core.csproj", "{BDAF0F68-6BFC-45EA-8C12-E40861A9A8D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessApplication.Core", "BusinessApplication.Core\BusinessApplication.Core.csproj", "{BDAF0F68-6BFC-45EA-8C12-E40861A9A8D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessApplication.UnitTests", "BusinessApplication.UnitTests\BusinessApplication.UnitTests.csproj", "{2E907F8C-57DD-44E4-9501-6469B8CF9D16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessApplication.UnitTests", "BusinessApplication.UnitTests\BusinessApplication.UnitTests.csproj", "{2E907F8C-57DD-44E4-9501-6469B8CF9D16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter6", "Chapter6", "{B1373FAA-99C4-4E24-9E2C-67E020F0479E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSIM.UnitTests", "OSIM.UnitTests\OSIM.UnitTests.csproj", "{BBB350E8-7DBB-47B9-85BF-4DA3CC173C07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSIM.Core", "OSIM.Core\OSIM.Core.csproj", "{FAA8432F-D3B2-46DE-9AE9-4B9CFCE46EFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +65,14 @@ Global
 		{2E907F8C-57DD-44E4-9501-6469B8CF9D16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E907F8C-57DD-44E4-9501-6469B8CF9D16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E907F8C-57DD-44E4-9501-6469B8CF9D16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBB350E8-7DBB-47B9-85BF-4DA3CC173C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB350E8-7DBB-47B9-85BF-4DA3CC173C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB350E8-7DBB-47B9-85BF-4DA3CC173C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB350E8-7DBB-47B9-85BF-4DA3CC173C07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAA8432F-D3B2-46DE-9AE9-4B9CFCE46EFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAA8432F-D3B2-46DE-9AE9-4B9CFCE46EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAA8432F-D3B2-46DE-9AE9-4B9CFCE46EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAA8432F-D3B2-46DE-9AE9-4B9CFCE46EFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,6 +80,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{BDAF0F68-6BFC-45EA-8C12-E40861A9A8D1} = {4996E732-EAAC-49D6-ABFD-DECCF3FECAAF}
 		{2E907F8C-57DD-44E4-9501-6469B8CF9D16} = {4996E732-EAAC-49D6-ABFD-DECCF3FECAAF}
+		{BBB350E8-7DBB-47B9-85BF-4DA3CC173C07} = {B1373FAA-99C4-4E24-9E2C-67E020F0479E}
+		{FAA8432F-D3B2-46DE-9AE9-4B9CFCE46EFB} = {B1373FAA-99C4-4E24-9E2C-67E020F0479E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {338E6D7C-0832-435B-B11E-6F80CE9739E4}
