@@ -26,6 +26,7 @@ namespace OSIM.UnitTests.OSIM.Core
         [Test]
         public void then_a_valid_item_type_id_should_be_returned()
         {
+            _testItemType = new ItemType() { Id=1};
             _result = _itemTypeRepository.Save(_testItemType);
             Assert.AreEqual(_result, _itemTypeId);
         }

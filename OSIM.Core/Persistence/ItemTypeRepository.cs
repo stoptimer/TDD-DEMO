@@ -1,5 +1,10 @@
 ﻿using System;
 using OSIM.Core.Entities;
+using MySql.Data;
+using System.Linq;
+using System.Data;
+using MySql.Data.MySqlClient;
+using Dapper;
 
 namespace OSIM.Core.Persistence
 {
@@ -9,14 +14,16 @@ namespace OSIM.Core.Persistence
     }
     public class ItemTypeRepository:IItemTypeRepository
     {
-        public ItemTypeRepository()
-        {
-        }
-
+        
         public int Save(ItemType itemType)
         {
-            
-            return 1;
+            int id;
+            using(var con = new MySqlConnection(""))
+            {
+                con.Open();
+                id= con.Execute("", itemType);
+            }
+            return id;
         }
     }
 }
