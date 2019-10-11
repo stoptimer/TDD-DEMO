@@ -11,19 +11,30 @@ namespace OSIM.Core.Persistence
     public interface IItemTypeRepository
     {
         int Save(ItemType itemType);
+        ItemType GetById(int id);
     }
     public class ItemTypeRepository:IItemTypeRepository
     {
-        
+        public ItemType GetById(int id)
+        {
+            
+            using (var con = new MySqlConnection(""))
+            {
+                con.Open();
+                return con.QueryFirst<ItemType>("",new  {Id=id });
+            }
+            
+        }
+
         public int Save(ItemType itemType)
         {
-            int id;
+            
             using(var con = new MySqlConnection(""))
             {
                 con.Open();
-                id= con.Execute("", itemType);
+                return con.Execute("", itemType);
             }
-            return id;
+            
         }
     }
 }
